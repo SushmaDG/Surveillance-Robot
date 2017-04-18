@@ -1,3 +1,0 @@
-<launch>
-  <node pkg="survo_base" type="imu_calc" name="imu_calc" />
-</launch>

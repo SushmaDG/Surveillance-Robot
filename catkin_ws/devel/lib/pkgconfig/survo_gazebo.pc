@@ -1,8 +1,0 @@
-prefix=/home/manikanta/catkin_ws/devel
-
-Name: survo_gazebo
-Description: Description of survo_gazebo
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/manikanta/catkin_ws/devel/lib 
-Requires: 

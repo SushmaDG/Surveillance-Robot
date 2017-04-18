@@ -1,8 +1,0 @@
-prefix=/home/manikanta/catkin_ws/install
-
-Name: grizzly_gazebo_plugins
-Description: Description of grizzly_gazebo_plugins
-Version: 0.2.0
-Cflags: -I/home/manikanta/catkin_ws/install/include
-Libs: -L/home/manikanta/catkin_ws/install/lib -lgrizzly_gazebo_plugins
-Requires: gazebo_plugins gazebo_ros gazebo_msgs roscpp std_msgs

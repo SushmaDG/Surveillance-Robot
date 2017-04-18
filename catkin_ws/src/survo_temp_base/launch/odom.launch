@@ -1,9 +1,0 @@
-<launch>
-  <node pkg="survo_temp_base" type="odom_temp" name="odom_temp" />
-  <node pkg="rqt_graph" type="rqt_graph" name="rqt_graph" required="true"/>
-  <include file="$(find grizzly_motion)/launch/motion.launch">
-    <arg name="simulate" value="true" />
-  </include>
-  <include file="$(find survo_description)/launch/viz.launch"/>
-  <include file="$(find survo_teleop)/launch/teleop.launch"/>
-</launch>

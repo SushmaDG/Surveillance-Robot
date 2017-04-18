@@ -1,8 +1,0 @@
-prefix=/home/manikanta/catkin_ws/devel
-
-Name: grizzly_navigation
-Description: Description of grizzly_navigation
-Version: 0.3.2
-Cflags: 
-Libs: -L/home/manikanta/catkin_ws/devel/lib 
-Requires: 
