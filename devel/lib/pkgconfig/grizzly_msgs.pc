@@ -1,8 +1,0 @@
-prefix=/home/manikanta/catkin_ws/devel
-
-Name: grizzly_msgs
-Description: Description of grizzly_msgs
-Version: 0.3.2
-Cflags: -I/home/manikanta/catkin_ws/devel/include -I/home/manikanta/catkin_ws/src/grizzly/grizzly_msgs/include -I/usr/include/eigen3
-Libs: -L/home/manikanta/catkin_ws/devel/lib 
-Requires: message_runtime

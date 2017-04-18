@@ -1,8 +1,0 @@
-prefix=/home/manikanta/catkin_ws/devel
-
-Name: grizzly_gazebo
-Description: Description of grizzly_gazebo
-Version: 0.2.0
-Cflags: 
-Libs: -L/home/manikanta/catkin_ws/devel/lib 
-Requires: 
