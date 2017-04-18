@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="port" default="/dev/ttyACM2" />
+  <node pkg="rqt_graph" type="rqt_graph" name="rqt_graph" required= "true"  />
+  <node name="serial_node" pkg="rosserial_python" type="serial_node.py" args="$(arg port)" respawn="true" />
+  <!-- <node pkg="survo_base" type="imu_calc" name="imu_calc" />
+  <node pkg="survo_base" type="odom_calc" name="odom_calc" /> -->
+ <include file="$(find survo_base)/launch/odom_calc.launch"/>
+ <include file="$(find survo_base)/launch/imu_calc.launch"/>
+</launch>

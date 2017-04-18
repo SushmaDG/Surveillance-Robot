@@ -1,0 +1,8 @@
+prefix=/home/manikanta/catkin_ws/devel
+
+Name: grizzly_motion
+Description: Description of grizzly_motion
+Version: 0.3.2
+Cflags: -I/home/manikanta/catkin_ws/src/grizzly/grizzly_motion/include
+Libs: -L/home/manikanta/catkin_ws/devel/lib 
+Requires: nmea_msgs

@@ -1,0 +1,8 @@
+prefix=/home/manikanta/catkin_ws/install
+
+Name: survo_move_base
+Description: Description of survo_move_base
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/manikanta/catkin_ws/install/lib 
+Requires: 

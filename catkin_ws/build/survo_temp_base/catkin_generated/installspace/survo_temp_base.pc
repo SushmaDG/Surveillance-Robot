@@ -1,0 +1,8 @@
+prefix=/home/manikanta/catkin_ws/install
+
+Name: survo_temp_base
+Description: Description of survo_temp_base
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/manikanta/catkin_ws/install/lib 
+Requires: 

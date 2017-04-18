@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="survo_teleop" type="survo_teleop_node" name="survo_teleop_node" output="screen">
+    <param name="scale_angular" value="1" />
+    <param name="scale_linear" value="1" />
+  </node>
+</launch>
