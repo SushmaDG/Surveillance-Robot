@@ -1,0 +1,8 @@
+prefix=/home/manikanta/catkin_ws/install
+
+Name: pointcloud
+Description: Description of pointcloud
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/manikanta/catkin_ws/install/lib 
+Requires: 

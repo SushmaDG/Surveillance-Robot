@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/_sixpair.dir/src/sixpair.c.o  -o /home/manikanta/catkin_ws/devel/lib/grizzly_teleop/_sixpair -rdynamic -lusb 

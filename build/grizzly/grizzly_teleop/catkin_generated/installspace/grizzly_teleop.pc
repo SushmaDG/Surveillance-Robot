@@ -1,0 +1,8 @@
+prefix=/home/manikanta/catkin_ws/install
+
+Name: grizzly_teleop
+Description: Description of grizzly_teleop
+Version: 0.3.2
+Cflags: 
+Libs: -L/home/manikanta/catkin_ws/install/lib 
+Requires: 

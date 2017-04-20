@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="survo_base" type="odom_calc" name="odom_calc" />
+</launch>
