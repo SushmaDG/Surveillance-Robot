@@ -1,0 +1,12 @@
+<launch>
+
+  <node pkg="openni_camera" type="openni_node" name="camera_node">
+  </node>
+  <include file="$(find openni_launch)/launch/openni.launch"/>
+  <include file="$(find survo_base)/launch/base.launch"/>
+
+  <!--<node pkg="survo_base" type="odom_calc" name="odom_calc">
+  </node>
+  <node pkg="survo_base" type="imu_calc" name="imu_calc">
+  </node>-->
+</launch>
