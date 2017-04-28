@@ -1,0 +1,19 @@
+<launch>
+  <master auto="start"/>
+
+  <!-- Run the map server -->
+<!--  <node name="map_server" pkg="map_server" type="map_server" args="$(find map_server)/map.pgm"/>-->
+<node name="octomap_server_node" pkg="octomap_server" type="octomap_server_node">
+   <remap from="/cloud_in" to="/camera/depth/points" />
+ </node>
+  <!--- Run AMCL -->
+  <include file="$(find amcl)/examples/amcl_diff.launch" />
+
+ <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+  <rosparam file="$(find survo_navigation)/costmap_config/costmap_common.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find survo_navigation)/costmap_config/costmap_common.yaml" command="load" ns="local_costmap"/>
+    <rosparam file="$(find survo_navigation)/costmap_config/local.yaml" command="load" />
+    <rosparam file="$(find survo_navigation)/costmap_config/global.yaml" command="load" />
+    <rosparam file="$(find survo_navigation)/costmap_config/planar.yaml" command="load" />
+  </node>
+</launch>
